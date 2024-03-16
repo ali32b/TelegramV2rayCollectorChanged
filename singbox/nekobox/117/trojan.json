@@ -110,7 +110,8 @@
                 "IE🇮🇪",
                 "GB🇬🇧",
                 "US🇺🇸",
-                "CA🇨🇦"
+                "CA🇨🇦",
+                "FR🇫🇷"
             ]
         },
         {
@@ -124,6 +125,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣5️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣6️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣",
+                "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣3️⃣",
@@ -135,10 +137,10 @@
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣5️⃣",
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣6️⃣",
-                "رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -149,7 +151,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -160,7 +162,7 @@
                 "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -171,17 +173,18 @@
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣",
+                "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -192,7 +195,7 @@
                 "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -207,11 +210,20 @@
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣5️⃣",
-                "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣6️⃣",
-                "رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
             "tolerance": 50
         },
         {
@@ -346,6 +358,27 @@
             "server": "18.175.9.19",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "35.179.72.238",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -642,11 +675,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "104.21.47.176",
-            "server_port": 443,
-            "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
+            "server": "15.236.3.208",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -654,19 +687,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hdfyc1.achaemenidempireofpersia.uk",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xw7uebRG4KlUXGGYTVEagC5V7fI",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

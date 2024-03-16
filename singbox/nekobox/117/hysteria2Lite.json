@@ -110,7 +110,7 @@
             "type": "urltest",
             "outbounds": null,
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "60m",
+            "interval": "5m",
             "tolerance": 50
         },
         {
