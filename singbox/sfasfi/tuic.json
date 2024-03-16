@@ -23,13 +23,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/95.85.95.85",
+                "address": "https:\/\/d.adguard-dns.com\/dns-query\/b7614fa9",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/95.85.95.85",
+                "address": "tcp:\/\/1.1.1.1",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -118,7 +118,7 @@
                 "رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
+            "interval": "60m",
             "tolerance": 50
         },
         {
@@ -130,7 +130,7 @@
                 "رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
+            "interval": "60m",
             "tolerance": 50
         },
         {
@@ -263,28 +263,6 @@
                     "ir"
                 ],
                 "outbound": "direct"
-            },
-            {
-                "geosite": [
-                    "geosite:category-ads-all",
-                    "malware",
-                    "phishing",
-                    "cryptominers"
-                ],
-                "outbound": "block"
-            },
-            {
-                "geosite": [
-                    "other"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "geoip": [
-                    "malware",
-                    "phishing"
-                ],
-                "outbound": "block"
             },
             {
                 "ip_cidr": [
