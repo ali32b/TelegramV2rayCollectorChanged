@@ -104,48 +104,15 @@
         {
             "tag": "proxy",
             "type": "selector",
-            "outbounds": [
-                "URL-TEST | رایگان",
-                "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣4️⃣"
-            ]
+            "outbounds": null
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣4️⃣"
-            ],
+            "outbounds": null,
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | GB🇬🇧 | 0️⃣4️⃣",
-            "type": "vless",
-            "server": "en.standardmap.onflashdrive.app",
-            "server_port": 47028,
-            "uuid": "3be088a4-5444-4c06-869b-6d324378a18e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "forward.standardmap.onflashdrive.app",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VMA0JhQXljJsSr6Pq0-gOthdtAtUkOHzvMeSttbGKEQ",
-                    "short_id": "61b36b49"
-                }
-            }
         },
         {
             "tag": "direct",
