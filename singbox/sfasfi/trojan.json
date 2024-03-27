@@ -459,9 +459,9 @@
         {
             "tag": "رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "ty12t.twty.dynu.net",
-            "server_port": 18912,
-            "password": "de521ccd-0b3b-4616-a04f-c06cc4b3b077",
+            "server": "nc12.twtc.dynu.net",
+            "server_port": 14656,
+            "password": "661ee645-8e3f-42ab-9e60-a19d5e7a89eb",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -469,7 +469,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ty12t.twty.dynu.net",
+                "server_name": "nc12.twtc.dynu.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
