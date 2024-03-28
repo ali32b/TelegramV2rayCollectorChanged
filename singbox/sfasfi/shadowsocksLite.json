@@ -114,7 +114,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | FR🇫🇷 | 0️⃣4️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | SS | @ROMAX_VPN | KR🇰🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | KR🇰🇷 | 0️⃣2️⃣"
             ]
@@ -131,7 +132,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | FR🇫🇷 | 0️⃣4️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | SS | @ROMAX_VPN | KR🇰🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | KR🇰🇷 | 0️⃣2️⃣"
             ],
@@ -220,7 +222,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "3.70.23.209",
+            "server_port": 2087,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NroGzSddDs1AaVv0+GY14GpkyKv3pusgdSMyGOsP1vI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | FI🇫🇮 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "185.77.217.121",
             "server_port": 443,
