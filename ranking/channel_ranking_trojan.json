@@ -1,10 +1,11 @@
 {
-    "date": "2024-03-28 14:48:35",
+    "date": "2024-03-28 16:03:17",
     "points": {
-        "PrivateVPNs": 98.92060396881416,
-        "oneclickvpnkeys": 37.13545416396562,
-        "DirectVPN": 30.45277844122938,
-        "V2rayCollectorDonate": 26.738928622366757,
-        "v2ray_swhil": 24.060137860139413
+        "PrivateVPNs": 105.99761223752084,
+        "oneclickvpnkeys": 40.14551669753202,
+        "DirectVPN": 35.74091336700741,
+        "V2rayCollectorDonate": 28.738932168491196,
+        "v2ray_swhil": 25.907596297353138,
+        "forwardv2ray": 1.0123891718591058
     }
 }
