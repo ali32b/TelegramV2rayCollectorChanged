@@ -111,7 +111,6 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "TR🇹🇷",
-                "AL🇦🇱",
                 "NL🇳🇱"
             ]
         },
@@ -120,8 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | TR🇹🇷 | 0️⃣4️⃣",
-                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣7️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣",
+                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣5️⃣",
                 "رایگان | REALITY | @v2ray_swhil | NL🇳🇱 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -133,17 +131,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | TR🇹🇷 | 0️⃣4️⃣",
-                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣7️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "AL🇦🇱",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣"
+                "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣5️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -195,7 +183,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣7️⃣",
+            "tag": "رایگان | REALITY | @proxyymeliii | TR🇹🇷 | 0️⃣5️⃣",
             "type": "vless",
             "server": "mado3.maghzkadehturky.com.tr",
             "server_port": 2053,
@@ -227,34 +215,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | AL🇦🇱 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "zerocool.cheshmsabz.toP",
-            "server_port": 45102,
-            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
-                    "short_id": "9f935adfaf516589"
-                }
             }
         },
         {
