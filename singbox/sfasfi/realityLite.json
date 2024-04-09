@@ -108,9 +108,9 @@
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣4️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣4️⃣",
-                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣4️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣4️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣7️⃣"
             ]
         },
@@ -120,9 +120,9 @@
             "outbounds": [
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣4️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣3️⃣",
-                "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣4️⃣",
-                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣4️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣4️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣7️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,7 +186,35 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "51.195.157.103",
+            "server_port": 45102,
+            "uuid": "de85f08e-b381-4d54-931d-f8a24f49b3ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | ES🇪🇸 | 0️⃣4️⃣",
             "type": "vless",
             "server": "frc0000000000-00.Cheshmsabz.toP",
             "server_port": 45102,
@@ -214,7 +242,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣4️⃣",
+            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | DE🇩🇪 | 0️⃣5️⃣",
             "type": "vless",
             "server": "188.40.202.25",
             "server_port": 8443,
@@ -242,7 +270,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣4️⃣",
+            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣7️⃣",
             "type": "vless",
             "server": "95.179.164.213",
             "server_port": 443,
@@ -266,34 +294,6 @@
                     "enabled": true,
                     "public_key": "sgQXMDfpV2HqVUrst0FIeYVU0XPpBeXs1i5z-_3SGSI",
                     "short_id": "f85c0ee0"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣7️⃣",
-            "type": "vless",
-            "server": "95.179.164.213",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "納豆.例.jp",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hyxpL3iXsbD1xhIQiAgCKSvCVX2_QQ5IWQYL5eFjnVI",
-                    "short_id": "1ce1ea6f"
                 }
             }
         },
