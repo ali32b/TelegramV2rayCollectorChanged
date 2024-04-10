@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "IE🇮🇪",
-                "FR🇫🇷",
+                "ES🇪🇸",
                 "GB🇬🇧"
             ]
         },
@@ -115,7 +115,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @v2rayNG_Matsuri | IE🇮🇪 | 0️⃣6️⃣",
-                "رایگان | REALITY | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | REALITY | @FAKEOFTVC | ES🇪🇸 | 0️⃣2️⃣",
                 "رایگان | REALITY | @FAKEOFTVC | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -133,10 +133,10 @@
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
+            "tag": "ES🇪🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | REALITY | @FAKEOFTVC | ES🇪🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -181,7 +181,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @FAKEOFTVC | ES🇪🇸 | 0️⃣2️⃣",
             "type": "vless",
             "server": "frc0000000000-00.Cheshmsabz.toP",
             "server_port": 45102,
