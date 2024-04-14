@@ -118,7 +118,7 @@
                 "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣6️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣5️⃣",
-                "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣4️⃣",
+                "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -141,7 +141,7 @@
             "outbounds": [
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣5️⃣",
-                "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣4️⃣"
+                "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣5️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -249,7 +249,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣4️⃣",
+            "tag": "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣5️⃣",
             "type": "vless",
             "server": "5.75.207.215",
             "server_port": 49830,
