@@ -110,7 +110,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣4️⃣",
+                "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣6️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣4️⃣",
@@ -121,7 +121,7 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣4️⃣",
+                "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣6️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @vless_vmess | DE🇩🇪 | 0️⃣4️⃣",
@@ -132,7 +132,7 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣4️⃣",
+            "tag": "رایگان | REALITY | @EliV2ray | IS🇮🇸 | 0️⃣6️⃣",
             "type": "vless",
             "server": "89.221.224.166",
             "server_port": 8443,
