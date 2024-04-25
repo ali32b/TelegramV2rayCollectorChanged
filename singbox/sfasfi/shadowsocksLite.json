@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | JP🇯🇵 | 0️⃣1️⃣",
@@ -114,6 +115,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | PL🇵🇱 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣4️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣5️⃣",
+                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣2️⃣"
             ]
@@ -122,7 +125,8 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | JP🇯🇵 | 0️⃣1️⃣",
@@ -130,6 +134,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | PL🇵🇱 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣4️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣5️⃣",
+                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣2️⃣"
             ],
@@ -138,7 +144,17 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "78.153.149.211",
+            "server_port": 25365,
+            "method": "aes-128-gcm",
+            "password": "Telegram-ZEDMODEON",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "66.225.228.113",
             "server_port": 30129,
@@ -214,6 +230,26 @@
             "server_port": 2927,
             "method": "chacha20-ietf-poly1305",
             "password": "ug4Fu79SEREdFGlt2sUyT4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "193.29.139.248",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "beedoost.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
             "plugin": "",
             "plugin_opts": ""
         },
