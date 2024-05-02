@@ -158,7 +158,6 @@
                 "رایگان | VMESS | @oneclickvpnkeys | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | SE🇸🇪 | 0️⃣5️⃣",
                 "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣6️⃣",
                 "رایگان | VMESS | @v2Line | PL🇵🇱 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -260,8 +259,7 @@
             "tag": "HK🇭🇰",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣6️⃣"
+                "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -1348,23 +1346,6 @@
             "type": "vmess",
             "server": "141.11.90.115",
             "server_port": 47765,
-            "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @Hope_Net | HK🇭🇰 | 0️⃣6️⃣",
-            "type": "vmess",
-            "server": "141.11.90.115",
-            "server_port": 48890,
             "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
             "security": "auto",
             "alter_id": 0,
