@@ -112,8 +112,7 @@
                 "SE🇸🇪",
                 "US🇺🇸",
                 "NL🇳🇱",
-                "TW🇹🇼",
-                "SG🇸🇬"
+                "TW🇹🇼"
             ]
         },
         {
@@ -136,8 +135,7 @@
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣6️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣7️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -218,16 +216,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣7️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -603,34 +591,6 @@
             "server": "211.72.35.154",
             "server_port": 3306,
             "password": "7b06d22a8a7c764f",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "n2.gladns.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gateway\/connect",
-                "headers": {
-                    "Host": "n2.gladns.com"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣7️⃣",
-            "type": "trojan",
-            "server": "5.44.249.52",
-            "server_port": 3306,
-            "password": "8a5360b3b31229d8",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
