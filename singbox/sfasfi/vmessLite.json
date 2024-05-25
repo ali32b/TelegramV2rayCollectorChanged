@@ -139,7 +139,7 @@
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | VMESS | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | BE🇧🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | UA🇺🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣5️⃣"
@@ -182,7 +182,7 @@
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | VMESS | @FreakConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | BE🇧🇪 | 0️⃣1️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | UA🇺🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣5️⃣"
@@ -1220,7 +1220,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "104.21.71.88",
             "server_port": 80,
