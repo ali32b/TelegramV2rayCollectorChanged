@@ -366,8 +366,9 @@
                 "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣3️⃣",
@@ -707,8 +708,9 @@
                 "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VLESS | @proxystore11 | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣3️⃣",
@@ -7520,7 +7522,21 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "free.to.free.join-private.ir",
+            "server_port": 443,
+            "uuid": "d396ade5-431b-4127-a7bf-46979eb78761",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣",
             "type": "vless",
             "server": "45.131.4.134",
             "server_port": 80,
@@ -7543,7 +7559,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,

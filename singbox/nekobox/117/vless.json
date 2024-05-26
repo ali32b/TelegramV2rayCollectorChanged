@@ -211,7 +211,7 @@
                 "رایگان | VLESS | @DailyV2RY | SE🇸🇪 | 0️⃣6️⃣",
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣4️⃣",
@@ -450,13 +450,14 @@
                 "رایگان | VLESS | @TVCminer | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | VLESS | @TVCminer | US🇺🇸 | 0️⃣7️⃣",
                 "رایگان | VLESS | @frev2ray | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxy_kafee | CN🇨🇳 | 0️⃣7️⃣",
                 "رایگان | VLESS | @mehrosaboran | CN🇨🇳 | 0️⃣4️⃣",
                 "رایگان | VLESS | @mehrosaboran | CN🇨🇳 | 0️⃣7️⃣",
                 "رایگان | VLESS | @v2logy | NL🇳🇱 | 0️⃣7️⃣",
                 "رایگان | REALITY | @VmessProtocol | NL🇳🇱 | 0️⃣5️⃣",
                 "رایگان | VLESS | @lrnbymaa | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣",
+                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣",
                 "رایگان | VLESS | @raze_vpn | ES🇪🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -564,7 +565,7 @@
                 "رایگان | VLESS | @DailyV2RY | SE🇸🇪 | 0️⃣6️⃣",
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @free1_vpn | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @Outlinev2rayNG | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @flyv2ray | SE🇸🇪 | 0️⃣4️⃣",
@@ -847,7 +848,8 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @frev2ray | IR🇮🇷 | 0️⃣1️⃣"
+                "رایگان | VLESS | @frev2ray | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -890,7 +892,7 @@
             "tag": "BZ🇧🇿",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣"
+                "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -2943,7 +2945,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @polproxy | SE🇸🇪 | 0️⃣3️⃣",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -9412,6 +9414,20 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @polproxy | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "free.to.free.join-private.ir",
+            "server_port": 443,
+            "uuid": "d396ade5-431b-4127-a7bf-46979eb78761",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @proxy_kafee | CN🇨🇳 | 0️⃣7️⃣",
             "type": "vless",
             "server": "103.184.45.119",
@@ -9555,7 +9571,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @polproxy | BZ🇧🇿 | 0️⃣2️⃣",
             "type": "vless",
             "server": "45.131.4.134",
             "server_port": 80,
