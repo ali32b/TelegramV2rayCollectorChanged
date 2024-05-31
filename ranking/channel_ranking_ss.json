@@ -1,11 +1,10 @@
 {
-    "date": "2024-05-31 23:50:53",
+    "date": "2024-06-01 00:49:12",
     "points": {
-        "VmessProtocol": 153.98055103429132,
-        "OutlineVpnOfficial": 142.8162081722686,
-        "kingofilter": 60.53154005776309,
-        "DeamNet_Proxy": 18.692847678117964,
-        "vmess_vless_v2rayng": 11.066260012796429,
-        "proxy_mtm": 8.116742751503505
+        "OutlineVpnOfficial": 6.265947008467212,
+        "VmessProtocol": 4.059533091424334,
+        "kingofilter": 3.030216733156494,
+        "proxy_mtm": 1.065649399942163,
+        "vmess_vless_v2rayng": 1.0060435049612244
     }
 }
