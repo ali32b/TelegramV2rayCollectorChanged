@@ -114,7 +114,7 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣4️⃣",
                 "رایگان | SS | @proxy_mtm | IE🇮🇪 | 0️⃣5️⃣",
-                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣6️⃣",
+                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣7️⃣"
             ]
         },
@@ -131,7 +131,7 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣4️⃣",
                 "رایگان | SS | @proxy_mtm | IE🇮🇪 | 0️⃣5️⃣",
-                "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣6️⃣",
+                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣7️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -229,7 +229,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣6️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣6️⃣",
             "type": "shadowsocks",
             "server": "45.158.171.129",
             "server_port": 8080,
