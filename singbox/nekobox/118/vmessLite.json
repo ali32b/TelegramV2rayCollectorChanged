@@ -142,7 +142,7 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2Line | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣6️⃣",
@@ -189,7 +189,7 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2Line | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣6️⃣",
@@ -1177,7 +1177,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @v2Line | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | VMESS | @v2Line | NL🇳🇱 | 0️⃣3️⃣",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
